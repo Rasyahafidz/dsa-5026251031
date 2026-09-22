@@ -12,11 +12,6 @@ public class Main {
             Main.class.getResourceAsStream("washes.txt")
         );
 
-            if (!scanner.hasNextInt()) {
-                scanner.close();
-                return;
-            }
-
             int n = scanner.nextInt();
             WashService[] washes = new WashService[n];
 
