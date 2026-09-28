@@ -1,4 +1,4 @@
-package lw1.prelab;
+package lw01.prelab;
 
 public interface Chargeable {
     int calculateCharge();

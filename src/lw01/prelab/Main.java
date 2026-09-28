@@ -28,12 +28,14 @@ public class Main {
                 }
                 jobs.add(job);
             }
-        } 
+        
 
-        Scanner.close();
+
 
         for (PrintJob job : jobs) {
             System.out.println(job.summary());
         }
     }
+}
+    
     
